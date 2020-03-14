@@ -1,0 +1,10 @@
+#include
+<stdio.h>
+    #include
+    <locale.h>
+
+        int main(){ int TU[14][14],//Tabela Usuario TC[14][14],//Tabela Computador L,//Linha do buscador C,//Coluna do buscador i,j; setlocale(LC_ALL, "Portuguese"); for(i=0;i
+
+        <14;i++){//serve para incrmentar 0 em todas as posições antes de colocar os navios em seus lugares for(j=0;j<14;j++){ TU[j]=0; TC[j]=0; } } printf(
+            "Legenda:\n0: Água\n1: Local já atacado\n2: Local com seu navio\n3: Local com navio destruido do oponente"); printf( "\nNavios do Jogador\n"); for(i=0;i<14;i++){ for(j=0;j<14;j++){ printf( "%d  ",TU[j]); } printf( "\n"); } printf( "\nNavios do Computador\n"); for(i=0;i<14;i++){ for(j=0;j<14;j++){ printf( "%d  ",TC[j]); } printf( "\n"); } printf(
+            "Qual linha você deseja atacar: "); scanf( "%d",&L); printf( "Qual coluna você deseja atacar: "); scanf( "%d",&C); }

@@ -1,0 +1,56 @@
+/*2 jogadores
+4x4
+8 navios
+8 posições vazias
+6 jogadas por jogador*/
+
+int JG1[4][4],
+    JG2[4][4],
+    BUSCALINHA,
+    BUSCACOLUNA,
+    JOGADAS1 = 0,
+    JOGADAS2 = 0,
+    NAVIOS1 = 0,
+    NAVIOS2 = 0;
+
+    /*
+    
+    IF (POSICÇÃO[I][J] = NAVIO) 
+     { ALERT(FOI AFUNDADO)
+    
+        JOGADA++;
+        NAVIO++;
+                  }ELSE {ALERT(ERRRRRROOOU!)}
+                  
+                  */
+/*
+for(INT i=0;i<4;i++){//serve para incrmentar 0 em todas as posições antes de colocar os navios em seus lugares
+        for(j=0;j<4;j++){
+            JG1[j]=0;
+            JG2[j]=0;    
+        }
+    }
+
+
+
+printf("\nNavios do Jogador 1\n");
+    for(i=0;i<4;i++){
+        for(j=0;j<4;j++){
+            printf("%d  ",JG1[j]);    
+        }
+       
+    }
+
+
+    printf("\nNavios do Jogador 2\n");
+    for(i=0;i<4;i++){
+        for(j=0;j<4;j++){
+            printf("%d  ",JG2[j]);    
+        }
+        
+    }
+
+
+*/
+
+
